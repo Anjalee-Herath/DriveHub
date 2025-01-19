@@ -1,16 +1,24 @@
-import React from 'react'
+import React from 'react';
+import ArrowIcon from '../Common/ArrowIcon';
 
-const Card = ({imagePath,title}) => {
+const Card = ({ imagePath, title, description, actionArrow, height, width }) => {
   return (
-    <div className="flex p-6 flex-col">
+    <div className="flex flex-col items-center p-4">
       <img
         src={imagePath}
-        className="max-h-[220px] max-w-[200px] min-h-[260px] min-w-[240px] hover:scale-105 cursor-pointer bg-cover bg-center border rounded"
-        alt="veh"
+        className="max-h-[${height?.height:'240px'}] max-w-[$[width?.width:'200px']] min-h-[220px] min-w-[200px] hover:scale-105 cursor-pointer bg-cover bg-center border rounded"
+        alt={title}
       />
-      <p className="text-[14px] p-[5px]">{title}</p>
+      <div className='flex justify-between items-center'>
+        <div className='flex flex-col p-5'>
+        <p className="text-[14px] mt-3 text-center font-medium">{title}</p>
+        {description && <p className='text-[12px] px-2 text-gray-600'>{description}</p>}
+        </div>
+        {actionArrow && <span className='cursor-pointer px-2 items-center'><ArrowIcon/></span>}
+      </div>
+      
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

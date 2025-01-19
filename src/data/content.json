@@ -1,0 +1,106 @@
+{
+  "categories":[
+    {
+      "title":"SUV",
+      "data":[
+        {
+        "title":"Toyota RAV4",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      },
+      {
+        "title":"Toyota RAV4",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      },
+      {
+        "title":"Toyota RAV4",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      }
+    ]
+    },
+    {
+      "title":"micro",
+      "data":[
+        {
+        "title":"Toyota",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      },
+      {
+        "title":"Toyota",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      },
+      {
+        "title":"Toyota",
+        "description":"A versatile and fuel-efficient compact SUV",
+        "image":"./images/toyotarav4.jpg"
+      }
+    ]
+    }
+  ],
+  "Footer":[
+    {
+      "items":[
+        {
+          "title":"Need Help",
+          "list":[
+            {
+              "label":"Contact Us",
+              "path":"/contact-us"
+            },
+            {
+              "label":"Buy Vehical",
+              "path":"/buy"
+            },
+            {
+              "label":"Sell Vehical",
+              "path":"/sell"
+            },
+            {
+              "label":"FAQ's",
+              "path":"/faq"
+            }
+          ]
+        },
+        {
+            "title":"Company",
+            "list":[
+                {
+                    "label":"About Us",
+                    "path":"/about"
+                },
+                {
+                    "label":"Media",
+                    "path":"/media"
+                }
+            ]
+        },
+        {
+            "title":"More Info",
+            "list":[
+                {
+                    "label":"Term and Conditions",
+                    "path":"/terms-conditions"
+                },
+                {
+                    "label":"Privacy Policy",
+                    "path":"/policies"
+                },
+                {
+                    "label":"Shipping Policy",
+                    "path":"/policies"
+                }
+            ]
+        },
+        {
+            "title":"Location",
+            "description":"Location Country"
+        }
+      ],
+      "copyright":"Copyright © 2025 DriveHub"
+    }
+  ]
+}
